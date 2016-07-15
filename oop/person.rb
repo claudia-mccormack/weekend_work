@@ -10,7 +10,7 @@ class Person
   end
 
   def full_name
-    puts "#{@first_name} #{@last_name}"
+    return "#{@first_name} #{@last_name}"
   end
 end
 
